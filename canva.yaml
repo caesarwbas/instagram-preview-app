@@ -1,22 +1,31 @@
+# Canva App Configuration
 name: "Instagram Preview Pro"
-description: "Preview how your Canva designs will look on Instagram before posting"
+description: "Preview how your Canva designs will look on Instagram before posting. Supports Feed Posts, Stories, and Reels with realistic phone mockups."
 version: "1.0.0"
 
+# App Metadata
 app:
   tagline: "See your posts before you publish"
   category: "Social Media"
 
+# Required Permissions
 permissions:
   - scope: "design:content:read"
     reason: "To display your Canva design in Instagram preview format"
   - scope: "asset:read"
-    reason: "To access images from your design for preview"
+    reason: "To access images from your design for the preview"
 
+# User Interface Configuration
 ui:
   location: "panel"
   src: "index.html"
   width: 400
   height: 600
 
+# Support & Legal
 support:
   email: "kaiser.ilwn@gmail.com"
+  website: "https://github.com/caesarwbas/instagram-preview-app"
+  documentation: "https://github.com/caesarwbas/instagram-preview-app#readme"
+  privacy_policy: "https://caesarwbas.github.io/instagram-preview-app/privacy-policy"
+  terms_of_service: "https://caesarwbas.github.io/instagram-preview-app/terms-of-service"
