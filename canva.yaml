@@ -1,0 +1,22 @@
+name: "Instagram Preview Pro"
+description: "Preview how your Canva designs will look on Instagram before posting"
+version: "1.0.0"
+
+app:
+  tagline: "See your posts before you publish"
+  category: "Social Media"
+
+permissions:
+  - scope: "design:content:read"
+    reason: "To display your Canva design in Instagram preview format"
+  - scope: "asset:read"
+    reason: "To access images from your design for preview"
+
+ui:
+  location: "panel"
+  src: "index.html"
+  width: 400
+  height: 600
+
+support:
+  email: "kaiser.ilwn@gmail.com"
